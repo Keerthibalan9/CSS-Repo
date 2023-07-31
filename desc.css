@@ -1,0 +1,83 @@
+* {
+    font-family: poppins;
+}
+
+.logo {
+    width: auto;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.logo img {
+    width: 192px;
+    margin-left: 200px;
+}
+
+.logo li{
+    float: right;
+    list-style: none;
+    border: 1px;
+    border-radius: 4px;
+    background-color: #E55807;
+    padding: 8px 14px;
+    color: white;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+.header {
+   background-color: #FFAACF;
+   width: auto;
+    height: 640px;
+    background-image: url(https://techstory.in/wp-content/uploads/2021/08/Mi-Notebook-Pro-and-Ultra-launched-in-India.jpg);
+    background-repeat: no-repeat; 
+}
+
+.header li{
+    font-family: poppins;
+    font-size: 90px;
+    font-weight: 600;
+    float: right;
+    list-style: none;
+    margin: 200px 300px 0px 0px;
+    line-height: 94px; 
+    background-image: linear-gradient(to right, #a34ec2, #5777c9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header li:hover{
+    font-family: poppins;
+    font-size: 90px;
+    font-weight: 600;
+    float: right;
+    list-style: none;
+    margin: 200px 300px 0px 0px;
+    line-height: 94px; 
+    background-image: linear-gradient(to right, #5777c9, #a34ec2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.marquee {
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    background: #ECF8F9;
+    color: #838383;
+    font-size: 30px;
+    padding: 10px;
+    font-family: bebas;
+}
+
+.important{text-align: center;
+   background-color: rgb(0, 0, 0);
+     width: auto; height: auto;
+     color: white;
+padding: 40px;}
+
+.important h1{text-align: center;
+    background-image: linear-gradient(to right, #fcf3e8, #e7750a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ padding: 40px;}
