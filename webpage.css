@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    display: flex;
+    width: auto;
+    background-color: rgb(245, 245, 245);
+    min-height: 50px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.login button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 0.8rem 2rem;
+
+
+}
+
+.box{
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.col1{
+    background-color: brown;
+}
+.col2{
+    background-color: rgb(51, 85, 255);
+}
+
+
+.logoNav {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+
+}
+
+.nav1 {
+    font-size: 1rem;
+}
+
+.sm {
+    font-size: 12px;
+    text-align: center;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 600px;
+    gap: 20px;
+}
+
+.heroBanner {
+    width: 100vw;
+
+}
+
+.infoCard {
+    width: 400px;
+    height: 200px;
+    border-left: 0.5rem solid rgb(255, 217, 0);
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    background-color: white;
+}
+
+.infoCard h3 {
+    padding: 0.8rem 0rem 0rem 2rem;
+    line-height: 32px;
+    text-align: left;
+    color: rgb(44, 44, 44);
+    font-size: 30px;
+}
+
+.infoCard p {
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+.inter{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 10px 20px;
+}
+.nav{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    justify-content: space-between;
+
+}
+.nav li{
+    list-style: none;
+}
+.social{
+    display: flex;
+    padding: 0.5rem;
+    gap: 0.5rem;
+}
+.secFold{
+    display: flex;
+    /* min-height: 300px; */
+    background-color: azure;
+
+}
+.secBox1{
+    background-color: rgb(255, 217, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.secBox2{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.setIcon{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    padding: 16px;
+}
+.setIcon1{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(100, 227, 239);
+    padding: 16px;
+}
+.setIcon2{
+    width: 24px;
+    height: 24px;
+    background-color: purple;
+    padding: 16px;
+}
+.setIcon3{
+    width: 24px;
+    height: 24px;
+    background-color: rgb(64, 204, 204);
+    padding: 16px;
+}
+.setPara{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.set{
+    display: flex;
+    gap: 20px;
+}
