@@ -1,0 +1,36 @@
+table,
+td,
+th {
+    border: none;
+    border-collapse: collapse;
+    font-family: poppins;
+}
+
+td,
+th {
+    padding: 10px 10px;
+    vertical-align: middle;
+    text-align: center;
+    width: 140px;
+    height: 40px;
+
+
+}
+
+table {
+    width: 100%;
+}
+
+thead {
+    background-color: #00cd77;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+.rep{
+    background-color: #008a50;
+    color: white;
+}
