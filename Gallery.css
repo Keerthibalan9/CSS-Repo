@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gallery{
+  margin: 0 auto; 
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /**** auto-fit -> mentioning fill the columns automatically because we not mentioned the column count.
+  minmax -> equal or gretaer than |  250px(height) for mentioning height of all images(unspecific) | 1fr(width) -> 25% of available space  *****/
+  grid-auto-rows: 250px; /**** defining row height *****/
+  grid-auto-flow: dense; /**** Fill the empty place *****/
+  gap: 10px; /**** gives space between photos *****/
+}
+/**** takes 2 rows cells *****/
+.vert{
+  grid-row: span 2;
+}
+/**** takes 2 column cells *****/
+.horz{
+  grid-column: span 2;
+}
+/**** gives 100% for unspecific *****/
+.gallery div img{ 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+@media (max-width: 560px) /**** for responsive *****/
+{
+  .vert{
+    grid-row: span 1;
+  }
+  
+  .horz{
+    grid-column: span 1;
+  }
+
+}
