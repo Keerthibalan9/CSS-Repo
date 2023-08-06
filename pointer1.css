@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background: linear-gradient(0deg, rgb(77, 77, 77, 0), rgba(0, 0, 0, 0.7)), url(https://img.freepik.com/free-vector/detailed-jungle-background_23-2148953379.jpg?w=1060&t=st=1691330948~exp=1691331548~hmac=a09eb6406b6b61d7e76b3ab7ad6ea6b7aac984113f55314703dc697cdab99c29) center center fixed;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.container{
+    width: 360px;
+    height: 510px;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-vector/realistic-vector-icon-rectangular-vertical-big-mirror-reflection-surface-frame-interior-design-furniture_528282-228.jpg?w=360&t=st=1691331066~exp=1691331666~hmac=c3b83a5f4dc9590ba28a6e6157d8f08abbe819f1659c9e9fa32a401e91eb2980);
+    background-color: #CBFFA9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    font-family: poppins;
+    text-align: center;
+}
+
+.container p{
+    padding: 8px;
+}
+.container:hover{
+    cursor: none;
+}
